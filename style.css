@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, aside, section, article, footer {
+    margin: 20px;
+    background-color: #e4d0d0;
+    
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main, aside, section, article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+aside, section {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+article {
+    overflow: hidden; 
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Form Styles */
+form {
+    margin: 20px auto;
+    width: 50%;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
